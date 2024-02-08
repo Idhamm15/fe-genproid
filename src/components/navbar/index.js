@@ -4,7 +4,7 @@ import { MdOutlineCategory } from "react-icons/md";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { CgDetailsMore } from "react-icons/cg";
-import logo from "../../assets/Frame 1.svg"
+import logo from "../../assets/logo_genpro.svg"
 import toogle from "../../assets/toogle.svg"
 
 
@@ -30,14 +30,14 @@ function Navbar () {
           <div className='order-2 hidden lg:block'>
             <ul className='flex gap-16'>
               <li className='text-grey font-bold text-sm'><a href='/'>Beranda</a></li>
-              <li className='text-grey font-bold text-sm opacity-50'><a href='/kategori'>Kategori</a></li>
-              <li className='text-grey font-bold text-sm opacity-50'><a href='/layanan'>Layanan</a></li>
-              <li className='text-grey font-bold text-sm opacity-50'><a href='/promo'>Promo</a></li>
+              <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'><a href='/kategori'>Kategori</a></li>
+              <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'><a href='/layanan'>Layanan</a></li>
+              <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'><a href='/promo'>Promo</a></li>
             </ul>
           </div>
           <div className='order-3 hidden sm:block'>
-            <button className='grow bg-white px-8 py-4 font-bold text-grey rounded-full text-sm hover:text-purple-700'>Login</button>
-            <button className='grow bg-purple-600 px-8 py-4 font-bold text-white rounded-full text-sm hover:bg-purple-700'>Sign Up</button>
+            <button className='grow bg-white px-8 py-4 font-bold text-grey rounded-full text-sm hover:text-red-800'>Login</button>
+            <button className='grow bg-red-700 px-8 py-4 font-bold text-white rounded-full text-sm hover:bg-red-800'>Sign Up</button>
           </div>
         </div>
       </div>

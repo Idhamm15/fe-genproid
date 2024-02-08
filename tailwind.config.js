@@ -5,7 +5,12 @@ module.exports = {
   ],
   theme: {},
   variants: {
-    extend: {},
+    extend: {
+      colors: {
+        customRed: '#490917',
+        customYellow: '#fec200',
+      },
+    },
   },
   plugins: [require("tailgrids/plugin")],
   
