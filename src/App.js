@@ -2,11 +2,13 @@ import './index.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Beranda from './pages/Beranda';
-import DetailsProduk from './pages/DetailProduk';
-import Form from './components/transaction/form';
-import Login from './components/form/login';
+import DetailsProduk from './pages/produk/DetailProduk';
 import Kategori from './pages/Kategori';
-// import Home from './pages/Home';
+import Navbar from './components/navbar';
+import Artikel from './pages/Artikel';
+import Promo from './pages/Promo';
+import PageLogin from './pages/auth/PageLogin';
+import PageRegister from './pages/auth/PageRegister';
 
 
 function App() {
@@ -16,10 +18,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Beranda />} />
         <Route path="/kategori" element={<Kategori />} />
-        <Route path="/layanan" element={<Beranda />} />
-        <Route path="/promo" element={<Beranda />} />
+        <Route path="/artikel" element={<Artikel />} />
+        <Route path="/promo" element={<Promo />} />
         <Route path="/details-produk" element={<DetailsProduk />} />
-        <Route path="/login" element={<Login />} />
+
+        {/* Auth */}
+        <Route path="/login" element={<PageLogin />} />
+        <Route path="/register" element={<PageRegister />} />
+        <Route path='/testing' element={<Navbar/>} />
       </Routes>
     </Router>
       </>

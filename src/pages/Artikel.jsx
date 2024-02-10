@@ -1,76 +1,29 @@
-
 import React from 'react'
 import Navbar from '../components/navbar';
-import Product from '../components/product';
+import Hero from '../components/hero';
+import Service from '../components/service';
+import Feature from '../components/feature';
+import Faq from '../components/faq'
 import Footer from '../components/footer';
+import Product from '../components/product';
+import Banner from '../components/banner';
+import Hero2 from '../components/hero2';
 
-const products = [
-    {
-      id: 1,
-      name: 'Basic Tee',
-      href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-      imageAlt: "Front of men's Basic Tee in black.",
-      price: '$35',
-      color: 'Black',
-    },
-    {
-        id: 2,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
-      },
-      {
-        id: 3,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
-      },
-      {
-        id: 4,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
-      },
-      {
-        id: 5,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
-      },
-      {
-        id: 6,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
-      },
-    // More products...
-  ]
-
-
-
-const Kategori= () => {
+const Artikel= () => {
   return (
     <>
     <Navbar/>
+    <Hero2
+      text1='Selamat Datang di Website Genpro ID'
+      button1='Baca Selengkapnya'
+      button2='Baca Selengkapnya'
+      button3='Sign In'
+      title1='Baca Artikel Genpro Tegal'
+      title2='Powered By Genpro ID'
+    />
     <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Produk Terbaru</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Trend Kategori</h2>
   
           <div className="mt-6 grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-4 lg:grid-cols-6 xl:gap-x-8">
             <ul>
@@ -95,14 +48,16 @@ const Kategori= () => {
             <input type="name" name="search" class="h-12 w-full cursor-text rounded-3xl border border-gray-100 bg-gray-100 py-4 pr-40 pl-12 shadow-sm outline-none focus:border-red-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50" placeholder="Search by name, type, manufacturer, etc" />
           </div>
 
-          <Product title='Semua Produk'/>
+          <Product title='Produk Terbaru'/>
         </div>
 
         
     </div>
+    {/* <Feature/> */}
+    <Faq/>
     <Footer/>
     </>
   )
 }
 
-export default Kategori;
+export default Artikel;

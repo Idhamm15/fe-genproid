@@ -22,8 +22,7 @@ const Footer = () => {
                   />
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
-                  Sed ut perspiciatis undmnis is iste natus error sit amet
-                  voluptatem totam rem aperiam.
+                  Marketplace UMKM Tegal 2024
                 </p>
                 <p className="flex items-center text-sm font-medium text-dark dark:text-white">
                   <span className="mr-3 text-primary">
@@ -60,29 +59,29 @@ const Footer = () => {
               </div>
             </div>
 
-            <LinkGroup header="Resources">
-              <NavLink link="/#" label="SaaS Development" />
-              <NavLink link="/#" label="Our Products" />
-              <NavLink link="/#" label="User Flow" />
-              <NavLink link="/#" label="User Strategy" />
+            <LinkGroup header="Menu">
+              <NavLink link="/#" label="Beranda" />
+              <NavLink link="/#" label="Kategori" />
+              <NavLink link="/#" label="Layanan" />
+              <NavLink link="/#" label="Promo" />
             </LinkGroup>
-            <LinkGroup header="Company">
-              <NavLink link="/#" label="About TailGrids" />
-              <NavLink link="/#" label="Contact & Support" />
+            <LinkGroup header="Layanan">
+              <NavLink link="/#" label="Pengaduan" />
+              {/* <NavLink link="/#" label="Contact & Support" />
               <NavLink link="/#" label="Success History" />
-              <NavLink link="/#" label="Setting & Privacy" />
+              <NavLink link="/#" label="Setting & Privacy" /> */}
             </LinkGroup>
-            <LinkGroup header="Quick Links">
-              <NavLink link="/#" label="Premium Support" />
-              <NavLink link="/#" label="Our Services" />
+            <LinkGroup header="Link Terkait">
+              <NavLink link="/#" label="Radar Tegal" />
+              {/* <NavLink link="/#" label="Our Services" />
               <NavLink link="/#" label="Know Our Team" />
-              <NavLink link="/#" label="Download App" />
+              <NavLink link="/#" label="Download App" /> */}
             </LinkGroup>
 
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
               <div className="mb-10 w-full">
                 <h4 className="mb-9 text-lg font-semibold text-dark dark:text-white">
-                  Follow Us On
+                  Follow Kami
                 </h4>
                 <div className="mb-6 flex items-center">
                   <a
@@ -139,7 +138,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  &copy; 2025 TailGrids
+                  &copy; 2024 Genpro Tegal
                 </p>
               </div>
             </div>

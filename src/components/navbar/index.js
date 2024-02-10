@@ -22,7 +22,7 @@ function Navbar () {
   return (
     <>
     {/* Navigation */}
-    <nav className='py-9 px-4'>
+    <nav className='py-9 px-4 z-10 relative'>
       <div className='container mx-auto'>
         <div className='flex items-center justify-between'>
           <img src={logo} alt='' className='order-1 sm:order-2'/>
@@ -31,7 +31,7 @@ function Navbar () {
             <ul className='flex gap-16'>
               <li className='text-grey font-bold text-sm'><a href='/'>Beranda</a></li>
               <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'><a href='/kategori'>Kategori</a></li>
-              <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'><a href='/layanan'>Layanan</a></li>
+              <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'><a href='/artikel'>Artikel</a></li>
               <li className='text-grey font-bold text-sm opacity-50 hover:text-red-800'><a href='/promo'>Promo</a></li>
             </ul>
           </div>
@@ -45,21 +45,21 @@ function Navbar () {
       <div className={`z-50 fixed bottom-0 left-0 right-0 bg-white p-4 border lg:hidden ${isMobileNavOpen ? '' : 'hidden'}`}>
         <ul className='flex justify-between'>
           <li>
-            <button href='' className='flex justify-center flex-col items-center gap-1 text-ungu'>
+            <button href='/' className='flex justify-center flex-col items-center gap-1 text-ungu'>
               <IoHomeOutline className='text-grey text-2xl hover:text-purple-500' />
               <span className='text-grey text-base font-bold'>Beranda</span>
             </button>
           </li>
           <li>
-            <button href='' className='flex justify-center flex-col items-center gap-1 text-ungu'>
+            <button href='/kategori' className='flex justify-center flex-col items-center gap-1 text-ungu'>
               <MdOutlineCategory className='text-grey text-2xl opacity-50' />
               <span className='text-grey opacity-50 text-base font-normal hover:text-purple-500'>Kategori</span>
             </button>
           </li>
           <li>
-            <button href='' className='flex justify-center flex-col items-center gap-1 text-ungu'>
+            <button href='/artikel' className='flex justify-center flex-col items-center gap-1 text-ungu'>
               <MdMiscellaneousServices className='text-grey text-2xl opacity-50' />
-              <span className='text-grey opacity-50 text-base font-normal hover:text-purple-500'>Layanan</span>
+              <span className='text-grey opacity-50 text-base font-normal hover:text-purple-500'>Artikel</span>
             </button>
           </li>
           <li>
