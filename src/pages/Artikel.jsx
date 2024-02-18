@@ -5,7 +5,7 @@ import Service from '../components/service';
 import Feature from '../components/feature';
 import Faq from '../components/faq'
 import Footer from '../components/footer';
-import Product from '../components/product';
+import CardProduct from '../components/product/card_product';
 import Banner from '../components/banner';
 import Hero2 from '../components/hero2';
 
@@ -48,7 +48,7 @@ const Artikel= () => {
             <input type="name" name="search" class="h-12 w-full cursor-text rounded-3xl border border-gray-100 bg-gray-100 py-4 pr-40 pl-12 shadow-sm outline-none focus:border-red-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50" placeholder="Search by name, type, manufacturer, etc" />
           </div>
 
-          <Product title='Produk Terbaru'/>
+          <CardProduct title='Produk Terbaru'/>
         </div>
 
         

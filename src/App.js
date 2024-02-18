@@ -10,6 +10,7 @@ import Promo from './pages/Promo';
 import PageLogin from './pages/auth/PageLogin';
 import PageRegister from './pages/auth/PageRegister';
 import Keranjang from './pages/produk/Keranjang';
+import Dashboard from './pages/dashboard/Dashboard';
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
         <Route path="/login" element={<PageLogin />} />
         <Route path="/register" element={<PageRegister />} />
         <Route path='/testing' element={<Navbar/>} />
+
+        {/* Dashboard */}
+        <Route path='/dashboard' element={<Dashboard/>}/>
       </Routes>
     </Router>
       </>

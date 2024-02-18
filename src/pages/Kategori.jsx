@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Navbar from '../components/navbar';
-import Product from '../components/product';
+import CardProduct from '../components/product/card_product';
 import Footer from '../components/footer';
 
 const products = [
@@ -95,7 +95,7 @@ const Kategori= () => {
             <input type="name" name="search" class="h-12 w-full cursor-text rounded-3xl border border-gray-100 bg-gray-100 py-4 pr-40 pl-12 shadow-sm outline-none focus:border-red-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50" placeholder="Search by name, type, manufacturer, etc" />
           </div>
 
-          <Product title='Semua Produk'/>
+          <CardProduct title='Semua Produk'/>
         </div>
 
         

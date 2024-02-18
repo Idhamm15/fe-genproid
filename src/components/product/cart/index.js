@@ -96,8 +96,8 @@ export default function Cart() {
           </ol>
         </nav>
 
-        <section class="bg-white py-16 px-3 sm:py-16 sm:px-0">
-            <div class="overflow-x-auto">
+        <section class="bg-white ">
+            <div class="overflow-x-auto flex justify-center lg:pr-28 lg:pr-20 lg:pt-20 md:pr-20 md:pt-10 md:pl-8 md:pr-0 sm:pr-10 sm:mt-10">
                 <table class="table">
                     {/* <!-- head --> */}
                     <thead>
@@ -124,7 +124,7 @@ export default function Cart() {
                             </td>
                             <td class="pl-6 lg:pl-36 md:pl-12 sm:px-2">Baju Ternyaman</td>
                             <td class="pl-6 lg:pl-36 md:pl-12 sm:px-2">
-                                <button class="grow bg-red-700 px-4 py-2 font-bold text-white text-xs lg:text-sm hover:bg-red-800 rounded-lg">details</button>
+                                <button class="grow bg-red-700 px-4 py-2 font-bold text-white text-xs lg:text-sm hover:bg-red-800 rounded-lg">Remove</button>
                             </td>
                         </tr>
                     </tbody>

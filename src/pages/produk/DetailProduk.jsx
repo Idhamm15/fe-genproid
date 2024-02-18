@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductDetails from '../../components/product_details';
+import ProductDetails from '../../components/product/product_details';
 import Navbar from '../../components/navbar';
 import user1 from '../../assets/produk/icon-testimonial-1.png'
 import user2 from '../../assets/produk/icon-testimonial-2.png'
