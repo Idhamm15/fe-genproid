@@ -2,24 +2,24 @@ import React, { useState } from 'react';
 
 const faqData = [
   {
-    question: 'Apa itu semedo',
+    question: 'Apa itu Genpro Tegal',
     answer:
-      'Museum Situs Semedo merupakan situs purbakala yang berupa penemuan fosil-fosil dan manusia purba. Letaknya berada Desa Semedo, Kecamatan Kedungbanteng, Kabupaten Tegal, Jawa Tengah.',
+      '',
   },
   {
-    question: 'Ada koleksi apa saja di museum semedo',
+    question: 'Untuk apa Website ini dibuat?',
     answer:
-      'Di situs ini ditemukan himpunan artefak litik berupa alat batu masif dan non-masif, serta beragam fosil fauna seperti gajah purba dan gajah kerdil purba atau Stegodon endemik Semedo. Alat batu masif terdiri atas kapak penetak, kapak perimbas, kapak genggam, batu inti, dan batu pukul.',    
+      '',    
   },
   {
-    question: 'Kapan semedo di dirikan?',
+    question: 'Apakah website ini hanya terdapat produk UMKM?',
     answer:
-      'Mengutip dari buku “Catatan Sejarah Situ Semedo, Dunia Purba Semedo” karya Topik Rochadi, pembangunan Museum Situs Semedo dimulai pada tahun 2015.',    
+      '',    
   },
   {
-    question: 'Kapan semedo bisa di kunjungi?',
+    question: 'Apakah saya bisa membuka toko di sini?',
     answer:
-      'Situs Semedo sudah buka dan dapat kita kunjungi dari hari Selasa-Minggu jam 08.30 - 15.00 WIB.',    
+      '',    
   },
 ];
 

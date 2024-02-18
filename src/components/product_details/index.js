@@ -3,12 +3,12 @@ import { StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
 
 const product = {
-  name: 'Basic Tee 6-Pack',
+  name: 'Detail Produk',
   price: '$192',
   href: '#',
   breadcrumbs: [
-    { id: 1, name: 'Men', href: '#' },
-    { id: 2, name: 'Clothing', href: '#' },
+    // { id: 1, name: 'Men', href: '#' },
+    { id: 2, name: 'Beranda', href: '#' },
   ],
   images: [
     {
@@ -263,12 +263,13 @@ export default function ProductDetails() {
                 </RadioGroup>
               </div>
 
-              <button
-                type="submit"
+              <a
+                href='/keranjang'
+                // type="submit"
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Add to bag
-              </button>
+              </a>
             </form>
           </div>
 
@@ -305,6 +306,8 @@ export default function ProductDetails() {
             </div>
           </div>
         </div>
+
+        
       </div>
     </div>
   )

@@ -4,8 +4,8 @@ export default function Register() {
     return (
       <>
       <section class="flex flex-col md:flex-row h-screen items-center">
-
-        <div class="bg-indigo-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
+ 
+        <div class="bg-indigo-600 hiddenlg:block w-full md:w-1/2 xl:w-2/3 h-screen">
           <img src="https://source.unsplash.com/random" alt="" class="w-full h-full object-cover"/>
         </div>
 
@@ -71,7 +71,7 @@ export default function Register() {
               </div>
 
               <button type="submit" class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg
-                    px-4 py-3 mt-6">Log In</button>
+                    px-4 py-3 mt-6">Daftar</button>
             </form>
 
             <hr class="my-6 border-gray-300 w-full" />

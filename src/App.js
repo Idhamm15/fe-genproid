@@ -9,6 +9,7 @@ import Artikel from './pages/Artikel';
 import Promo from './pages/Promo';
 import PageLogin from './pages/auth/PageLogin';
 import PageRegister from './pages/auth/PageRegister';
+import Keranjang from './pages/produk/Keranjang';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/artikel" element={<Artikel />} />
         <Route path="/promo" element={<Promo />} />
         <Route path="/details-produk" element={<DetailsProduk />} />
+        <Route path="/keranjang" element={<Keranjang />} />
 
         {/* Auth */}
         <Route path="/login" element={<PageLogin />} />
