@@ -8,6 +8,7 @@ import Footer from '../components/footer';
 import CardProduct from '../components/product/card_product';
 import Banner from '../components/banner';
 import Hero2 from '../components/hero2';
+import Artikels from '../components/artikel';
 
 const Artikel= () => {
   return (
@@ -21,7 +22,7 @@ const Artikel= () => {
       title1='Baca Artikel Genpro Tegal'
       title2='Powered By Genpro ID'
     />
-    <div className="bg-white">
+    {/* <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Trend Kategori</h2>
   
@@ -52,9 +53,11 @@ const Artikel= () => {
         </div>
 
         
-    </div>
+    </div> */}
     {/* <Feature/> */}
-    <Faq/>
+
+    {/* Artikel */}
+    <Artikels/>
     <Footer/>
     </>
   )

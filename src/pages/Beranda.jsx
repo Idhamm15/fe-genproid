@@ -55,6 +55,7 @@ const Beranda= () => {
     </div>
     {/* <Feature/> */}
     <Faq/>
+
     <Footer/>
     </>
   )
